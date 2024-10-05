@@ -1,5 +1,5 @@
 Pseudocódigo
-"Serie dinamica basada en entrada de usuario"
+"Serie dinámica basada en entrada de usuario"
 
 INICIO
 DVyC
@@ -17,5 +17,5 @@ PROCESO
             contador = contador - 8
         fin mientras
     sino
-        imprimir "la sucesion no procede"
+        imprimir "la sucesión no procede"
 FIN

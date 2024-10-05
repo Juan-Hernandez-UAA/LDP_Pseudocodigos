@@ -1,5 +1,5 @@
 Pseudocódigo
-"Calculo de serie geometrica"
+"Cálculo de serie geométrica"
 
 INICIO
 DVyC
@@ -17,7 +17,7 @@ PROCESO Y DE
     mientras(n <= 0)
 
     repetir
-        suma = suma + (1 / eleva(x, contador))
+        suma = suma + 1 / eleva(x, contador)
         contador = contador + 1
     mientras(contador <= n)
 
