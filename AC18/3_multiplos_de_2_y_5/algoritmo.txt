@@ -1,0 +1,11 @@
+Algoritmo "Multiplos de 2 y 5"
+Inicio
+    DE
+        Pedir un numero
+    Proceso
+        si (numero mod 2 == 0 and numero mod 5 == 0)
+            Imprimir el numero es multiplo de 2 y de 5
+        sino
+            Imprimir el numero no es multiplo de 2 y de 5
+        fin si
+Fin

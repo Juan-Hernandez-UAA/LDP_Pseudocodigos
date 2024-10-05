@@ -1,0 +1,16 @@
+Algoritmo "Numeros iguales y mayores"
+Inicio
+    DE
+        Pedir numero1
+        Pedir numero2
+    Proceso
+        si (numero1 == numero2)
+            imprimir los numeros son iguales
+        sino
+            si (numero1 > numero2)
+                numero1 es mayor a numero2
+            sino
+                numero2 es mayor a numero1
+            fin si
+        fin si
+Fin

@@ -1,0 +1,22 @@
+Algoritmo
+"Número mayor de un conjunto"
+
+INICIO
+    DE
+        pedir numero 1
+        pedir numero 2
+        pedir numero 3
+    PROCESO Y DS
+        si(numero1 <> numero2 and numero1 <> numero3 and numero2 <> numero3)
+            si(numero1 > numero2 and numero1 > numero3)
+                numero_mayor = numero1
+            sino si(numero2 > numero1 and numero2 > numero3)
+                numero_mayor = numero2
+            sino
+                numero_mayor = numero3
+            fin si
+
+            imprimir el numero mayor es: numero_mayor
+        sino
+            imprimir mensaje de error
+FINAL
