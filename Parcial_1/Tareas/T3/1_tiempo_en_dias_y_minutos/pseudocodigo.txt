@@ -1,0 +1,17 @@
+Pseudocódigo  "Tiempo en días y minutos"
+Inicio
+    DVC
+        real dias, horas, minutos, segundos
+    DE
+        imprimir "Dame un tiempo en horas"
+        leer horas
+    Proceso
+        dias = horas / 24
+        minutos = horas * 60
+        segundos = horas * 3600
+    DS
+        imprimir horas, " horas equivalen a:"
+        imprimir dias, " días"
+        imprimir minutos, " minutos"
+        imprimir segundos, " segundos"
+Fin

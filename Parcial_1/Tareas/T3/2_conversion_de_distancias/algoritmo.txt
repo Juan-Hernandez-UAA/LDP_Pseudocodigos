@@ -1,0 +1,15 @@
+Algoritmo "Conversión de distancias"
+Inicio
+    DE
+        pedir medida en pies
+    PROCESO
+        yardas = pies / 3
+        pulgadas = pies * 12
+        centimetros = pies * 30.48
+        metros = pies * 0.3048
+    DS
+        imprimir yardas
+        imprimir pulgadas
+        imprimir centimetros
+        imprimir metros
+Fin

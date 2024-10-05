@@ -1,0 +1,11 @@
+Algoritmo "Numeros pares o impares"
+Inicio
+    DE
+        Pedir un numero
+    Proceso
+        si (numero mod 2 == 0)
+            imprimir el numero es par
+        sino
+            imprimir el numero es impar
+        fin si
+Fin

@@ -1,0 +1,13 @@
+Algoritmo "Tiempo en dias y minutos"
+Inicio
+    DE
+        pedir horas
+    Proceso
+        dias = horas / 24
+        minutos = horas * 60
+        segundos = horas * 3600
+    DS
+        imprimir dias
+        imprimir minutos
+        imprimir segundos
+Fin

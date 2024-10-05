@@ -1,0 +1,22 @@
+Pseudocódigo
+"Calcular distancia entre dos puntos"
+
+INICIO
+    DVyC
+        real distancia, x1, y1, x2, y2
+    DE
+        imprimir "ingrese punto x1: "
+        leer x1
+        imprimir "ingrese punto y1: "
+        leer y1
+
+        imprimir "ingrese punto x2: "
+        leer x2
+        imprimir "ingrese punto y2: "
+        leer y2
+
+    PROCESO
+        distancia = raiz2((x2 - x1)**2 + (y2 - y1)**2)
+    DS
+        imprimir "la distancia entre el punto (", x1, ",", y1, ") y (", x2, ",", y2, ") es:", distancia
+FIN

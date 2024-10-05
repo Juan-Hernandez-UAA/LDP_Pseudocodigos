@@ -1,0 +1,23 @@
+Algoritmo "Selector de funciones"
+Inicio
+DE
+    Pedir un valor
+    Pedir un numero
+Proceso
+    numero >= 1 and numero <=3
+        si (numero == 1)
+            resultado = 100 * valor
+        sino si (numero == 2)
+            resultado = 100 ** valor   # Exponenciación
+        sino si (numero == 3)
+            si (valor != 0)
+                resultado = 100 / valor
+            sino
+                imprimir "Error: división por cero"
+            fin si
+        fin si
+        imprimir resultado
+    sino
+        imprimir 0
+    fin si
+Fin

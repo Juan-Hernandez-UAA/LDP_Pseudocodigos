@@ -1,0 +1,16 @@
+Algoritmo "Cifrado de césar"
+Inicio
+    DE
+        pedir entero de 4 cifras
+    PROCESO Y DS
+        si (numero >= 1000 and numero <= 9999)
+            miles = ((numero / 1000 + 7) mod 10)
+            centenas = ((numero mod 1000 / 100 + 7) mod 10)
+            decenas = ((numero mod 100 / 10 + 7) mod 10)
+            unidades = ((numero mod 10 + 7) mod 10)
+
+            imprimir decenas, unidades, miles, centenas        
+        sino
+            imprimir el numero no se encuentra en el rango permitido
+        fin si
+Fin

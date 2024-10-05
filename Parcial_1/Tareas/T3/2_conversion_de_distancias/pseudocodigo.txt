@@ -1,0 +1,18 @@
+Pseudocódigo  "Conversión de distancias"
+Inicio
+    DVC
+        real pies, yardas, pulgadas, centimetros, metros
+    DE
+        imprimir "dame una medida en pies"
+        leer pies 
+    PROCESO
+        yardas = pies / 3
+        pulgadas = pies * 12
+        centimetros = pies * 30.48
+        metros = pies * 0.3048
+    DS
+        imprimir "distancia en yardas: ", yardas
+        imprimir "distancia en pulgadas: ", pulgadas
+        imprimir "distancia en centimetros: ", centimetros
+        imprimir "distancia en metros: ", metros
+Fin

@@ -1,0 +1,20 @@
+Pseudocódigo "Cifrado de césar"
+Inicio
+    DVC
+        entero num, miles, centenas, decenas, unidades
+    DE
+        imprimir "ingrese un numero entero de 4 cifras"
+        leer num
+    PROCESO Y DS
+        si (numero >= 1000 and numero <= 9999)
+            miles = ((numero / 1000 + 7) mod 10) * 1000
+            centenas = ((numero mod 1000 / 100 + 7) mod 10) * 100
+            decenas = ((numero mod 100 / 10 + 7) mod 10) * 10
+            unidades = ((numero mod 10 + 7) mod 10) * 1
+
+            //Se imprime en desorden para simular la permutacion
+            imprimir decenas, unidades, miles, centenas
+        sino
+            imprimir "el numero no se encuentra en el rango permitido"
+        fin si
+Fin

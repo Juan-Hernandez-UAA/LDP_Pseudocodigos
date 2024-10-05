@@ -1,0 +1,16 @@
+Algoritmo
+"Calcular distancia entre dos puntos"
+
+INICIO
+    DE
+        pedir punto x1
+        pedir punto y1
+        pedir punto x2
+        pedir punto y2
+    PROCESO
+        distancia = raiz2((x2 - x1)**2 + (y2 - y1)**2)
+    DS
+        imprimir la distancia entre el punto (x1, y1) y (x2, y2): distancia
+FIN
+
+Distancia x1 y1 x2 y2
