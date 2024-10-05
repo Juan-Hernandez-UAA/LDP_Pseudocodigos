@@ -1,5 +1,5 @@
 Pseudocódigo
-"Calculo fraccionario serial"
+"Calculo de serie geometrica"
 
 INICIO
 DVyC
@@ -10,11 +10,6 @@ PROCESO Y DE
     n = 0
     contador = 1
     suma = 1
-
-    repetir
-        imprimir "Dame x"
-        leer x
-    mientras(x <= 0)
 
     repetir
         imprimir "Dame n"
