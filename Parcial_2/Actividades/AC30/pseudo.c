@@ -1,6 +1,6 @@
 Pseudocódigo
 "Cálculo de nómina y sueldo basado en comisiones"
-
+    
 INICIO
 DVyC
     cadena nombre_empleado, nombre_mayor
