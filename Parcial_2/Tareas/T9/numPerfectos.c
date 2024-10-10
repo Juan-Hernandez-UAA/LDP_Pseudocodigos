@@ -13,7 +13,7 @@ INICIO
         mientras (indice <= n_numeros)
             acumulador = 0
             divisor = 1
-            mientras (divisor < indice)
+            mientras (divisor < indice)  // Solo divisores propios
                 si (indice mod divisor == 0)
                     acumulador = acumulador + divisor
                 fin si
