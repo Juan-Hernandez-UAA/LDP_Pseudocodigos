@@ -2,7 +2,7 @@ Pseudocódigo
 "Cálculo del seguro de auto y plazo de pago"
 
 INICIO
-    DVyC
+    DVyC precio_
         cadena nombre, modelo_auto
         entero edad, tiempo_permiso
         real sueldo_mensual, precio_seguro, total_a_pagar, incremento = 0, mensualidad
@@ -10,13 +10,13 @@ INICIO
         constante real PRECIO_A = 1600, PRECIO_B = 2300, PRECIO_C = 2800
 
     DE y PROCESO
-        imprimir "Ingrese el nombre del empleado:"
+        imprimir "Ingrese el nombre del empleado: "
         leer nombre
 
-        imprimir "Ingrese el sueldo mensual del empleado:"
+        imprimir "Ingrese el sueldo mensual del empleado: "
         leer sueldo_mensual
 
-        imprimir "Ingrese el modelo del auto (A, B o C):"
+        imprimir "Ingrese el modelo del auto (A, B o C): "
         leer modelo_auto
 
         si(modelo_auto <> 'A' and modelo_auto <> 'B' and modelo_auto <> 'C')
@@ -24,7 +24,7 @@ INICIO
             terminar
         fin si
 
-        imprimir "Ingrese la edad del empleado:"
+        imprimir    
         leer edad
 
         imprimir "Ingrese el tiempo con permiso de conducir en años:"
@@ -65,10 +65,10 @@ INICIO
         mensualidad = total_a_pagar / meses_sin_intereses
 
         // Imprimir los resultados
-        imprimir "Recibo del seguro de auto:"
-        imprimir "Nombre del empleado: ", nombre
-        imprimir "Modelo del auto: ", modelo_auto
-        imprimir "Total a pagar por el seguro: $", total_a_pagar
-        imprimir "Plan a meses sin intereses: ", meses_sin_intereses, " meses"
-        imprimir "Mensualidad a pagar: $", mensualidad
+        "Recibo del seguro de auto:"
+        "Nombre del empleado: ", nombre
+        "Modelo del auto: ", modelo_auto
+        "Total a pagar por el seguro: $", total_a_pagar
+        "Plan a meses sin intereses: ", meses_sin_intereses, " meses"
+        "Mensualidad a pagar: $", mensualidad
 FIN
