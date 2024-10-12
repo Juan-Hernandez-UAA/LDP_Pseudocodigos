@@ -1,5 +1,5 @@
 Pseudocódigo
-"Hotel Fiesta Inn - Cálculo de reservación"
+"Cálculo de reservación en el hotel Fiesta Inn"
 
 INICIO
     DVyC
@@ -9,10 +9,10 @@ INICIO
         constante real PRECIO_HAB1 = 1700, PRECIO_HAB2 = 2100, PRECIO_HAB3 = 2600
 
     DE y PROCESO
-        imprimir "Ingrese el nombre de quien reserva:"
+        imprimir "Ingrese el nombre de quien reserva: "
         leer nombre
         
-        imprimir "Ingrese el tipo de habitación (1, 2 o 3):"
+        imprimir "Ingrese el tipo de habitación (1, 2 o 3): "
         leer tipo_habitacion
         
         si(tipo_habitacion < 1 or tipo_habitacion > 3)
@@ -20,13 +20,13 @@ INICIO
             terminar
         fin si
         
-        imprimir "Ingrese la cantidad de días a reservar:"
+        imprimir "Ingrese la cantidad de días a reservar: "
         leer dias_reserva
         
-        imprimir "Ingrese el total de personas a quedarse en la habitación:"
+        imprimir "Ingrese el total de personas a quedarse en la habitación: "
         leer total_personas
         
-        imprimir "Ingrese el tipo de turista (nacional/internacional):"
+        imprimir "Ingrese el tipo de turista (nacional/internacional): "
         leer tipo_turista
 
         // Calcular cobro por habitación
