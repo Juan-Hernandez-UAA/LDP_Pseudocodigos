@@ -1,5 +1,5 @@
 Pseudocódigo
-"Juego de azar (ruleta)"
+"Ruleta"
 
 INICIO
     DVyC
@@ -8,21 +8,21 @@ INICIO
         constante entero MIN_RUEDA = 0
         constante entero MAX_RUEDA = 36
 
-entero n, i
-entero numero = 0
-entero contador_cero = 0
-entero contador_docena = 0
-entero contador_pares = 0
-entero contador_impares = 0
-entero suma_pares = 0
-entero mayor_numero = -1
-entero promedio_pares
+        entero n, i
+        entero numero = 0
+        entero contador_cero = 0
+        entero contador_docena = 0
+        entero contador_pares = 0
+        entero contador_impares = 0
+        entero suma_pares = 0
+        entero mayor_numero = -1
+        entero promedio_pares
 
-real porcentaje_pares
-real porcentaje_impares
+        real porcentaje_pares
+        real porcentaje_impares
 
-booleano deseaContinuar = verdadero
-cadena respuesta
+        booleano deseaContinuar = verdadero
+        cadena respuesta
     repetir
         // Generar valor aleatorio de n
         n = aleatorio(MIN_NUMERO; MAX_NUMERO)
