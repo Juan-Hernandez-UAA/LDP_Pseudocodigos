@@ -1,31 +1,25 @@
 Pseudocódigo
-"Tipo de triángulo"
+"Calcular sumatoria y promedio de números dados"
 INICIO
 DVyC
-    real lado_1, lado_2, lado_3
-    cadena tipo_triangulo
-
-DE
-    imprimir "dame el lado 1"
-    leer lado_1
-    imprimir "dame el lado 2"
-    leer lado_2
-    imprimir "dame el lado 3"
-    leer lado_3
-
+    entero numero, num_de_entradas, suma_entradas, contador
+    real promedio
 PROCESO
-    si no(lado_1 > 0 and lado_2 > 0 and lado_3 > 0)
-        imprimir "todos los lados deben de ser mayores a 0"
-        retornar // termina la ejecución del código
-    
-    si (lado_1 == lado_2 and lado_2 == lado_3)
-        tipo_triangulo = "equilátero"
-    sino si (lado_1 <> lado_2 and lado_1 <> lado_3 and lado_2 <> lado_3)
-        tipo_triangulo = "escaleno"
-    sino
-        tipo_triangulo = "isósceles"
-    fin si
+    contador = 1
 
+    imprimir "¿Cuántos números deseas ingresar?"
+    leer num_de_entradas
+    
+    repetir
+        imprmir "dame el numero ", contador, ":"
+        leer numero
+        suma_entradas = suma_entradas + numero
+
+        contador = contador + 1
+    mientras(contador <= num_de_entradas)
+
+    promedio = suma_entradas / num_de_entradas
 DS
-    imprimir "El triángulo es ", tipo_triangulo
+    imprmir "suma de las entradas: ", suma_entradas
+    imprmir "promedio: ", promedio
 FIN

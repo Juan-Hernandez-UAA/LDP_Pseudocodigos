@@ -1,25 +1,27 @@
 Pseudocódigo
-"Encontrar el número mayor"
+"Imprimir promedio de n números generados aleatoriamente"
+
 INICIO
 DVyC
-    entero num_de_entradas, contador, numero, mayor
+    entero n, contador, suma, num_random
+    real promedio
 PROCESO
-    imprimir "¿Cuántos números deseas ingresar?"
-    leer num_de_entradas
-
-    mayor = 0 // inconsistencia, los números dados pueden ser menores
+    suma = 0
     contador = 1
+    n = 0
 
-    repetir
-        imprimir "dame el numero ", contador
-        leer numero
-        
-        si(numero > mayor)
-            mayor = numero
-        fin si
+    mientras (n <= 0) // Valida que el número sea positivo
+        imprimir "Ingrese el valor de n (debe ser mayor a 0)"
+        leer n
+    fin mientras
 
+    mientras (contador <= n)
+        num_random = generarAleatorio(1, 100) // Generar número aleatorio entre 1 y 100
+        imprimir "número ", contador, ": " num_random
+        suma = suma + num_random
         contador = contador + 1
-    mientras(contador <= num_de_entradas)
-DS
-    imprimir "el número mayor ingresado es: ", mayor
+    fin mientras
+
+    promedio = suma / n
+    imprimir "El promedio es: ", promedio
 FIN
