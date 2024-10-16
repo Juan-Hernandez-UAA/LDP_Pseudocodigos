@@ -3,22 +3,34 @@ Pseudocódigo
 
 INICIO
     DVyC
-        entero base = 0, exponente = 0, resultado = 1
-    DE
-        repetir mientras(base < 1) // uso de mientras para validar
-            imprimir "Ingrese la base (entero positivo): "
-            leer base
-        fin repetir mientras
+        entero base, exponente, resultado
+        caracter respuesta
 
-        repetir mientras(exponente < 1) // uso de mientras para validar
-            imprimir "Ingrese el exponente (entero positivo): "
-            leer exponente
-        fin repetir mientras
+    PROCESO Y DE
+        repetir
+            base = 0
+            exponente = 0
+            resultado = 1
 
-    PROCESO
-        repetir desde(i = 1, i <= exponente, i = i + 1)
-            resultado = resultado * base
-        fin repetir desde
+            mientras(base < 1) // uso de mientras para validar
+                imprimir "Ingrese la base (entero positivo): "
+                leer base
+            fin mientras
 
-        imprimir base, " elevado a ", exponente, " es: ", resultado
+            mientras(exponente < 1) // uso de mientras para validar
+                imprimir "Ingrese el exponente (entero positivo): "
+                leer exponente
+            fin mientras
+
+            repetir desde(i = 1, i <= exponente, i = i + 1)
+                resultado = resultado * base
+            fin repetir desde
+
+            imprimir base, " elevado a ", exponente, " es: ", resultado
+
+            "Deseas repetir el proceso?"
+            leer respuesta
+            respuesta = (respuesta == 's' or respuesta == 'S')
+        mientras(respuesta)
+
 FIN
