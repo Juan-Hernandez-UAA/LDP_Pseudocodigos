@@ -25,13 +25,13 @@ INICIO
         cadena respuesta
     repetir
         // Generar valor aleatorio de n
-        n = aleatorio(MIN_NUMERO; MAX_NUMERO)
+        n = aleatorio(MIN_NUMERO, MAX_NUMERO)
         imprimir "Valor de n: ", n
 
         // Generación de números aleatorios y cálculo de resultados
         i = 1
         repetir
-            numero = aleatorio(MIN_RUEDA; MAX_RUEDA)
+            numero = aleatorio(MIN_RUEDA, MAX_RUEDA)
             imprimir "Número generado: ", numero
 
             si (numero == 0)

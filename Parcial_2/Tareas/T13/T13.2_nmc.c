@@ -12,7 +12,7 @@ INICIO
             leer n
             numero_mas_chico = 0
 
-            repetir desde(i = 0, i < n, i = i + 1)
+            repetir desde(i = 0, i < n, i = i+1)
                 imprimir "Ingrese un número entero: "
                 leer numero
 
