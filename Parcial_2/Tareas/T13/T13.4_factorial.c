@@ -3,13 +3,13 @@ Pseudocódigo
 
 INICIO
     DVyC
-        entero numero, factorial = 1
+        entero numero, i, factorial = 1
         caracter respuesta
 
     PROCESO Y DE
         repetir
             numero = -1
-            
+
             mientras(numero < 0) // uso de mientras para validar
                 imprimir "Ingrese un número mayor o igual a 0: "
                 leer numero
@@ -21,7 +21,7 @@ INICIO
 
             imprimir "El factorial de ", numero, " es: ", factorial
 
-            "Deseas repetir el proceso?"
+            imprimir "Deseas repetir el proceso?"
             leer respuesta
             respuesta = (respuesta == 's' or respuesta == 'S')
         mientras(respuesta)

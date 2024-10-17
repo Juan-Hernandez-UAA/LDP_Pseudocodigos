@@ -1,9 +1,9 @@
 Pseudocódigo
-"buscar 3"
+"Buscando el número 3"
 
 INICIO
     DVyC
-        entero numero
+        entero numero, i
         booleano tiene_tres
         cadena articulo
         caracter respuesta
@@ -27,10 +27,8 @@ INICIO
             articulo = tiene_tres ? "sí" : "no"
             imprimir "El número ", articulo, " tiene un 3"
 
-            "Deseas repetir el proceso?"
+            imprimir "Deseas repetir el proceso?"
             leer respuesta
             respuesta = (respuesta == 's' or respuesta == 'S')
         mientras(respuesta)
-
-
 FIN

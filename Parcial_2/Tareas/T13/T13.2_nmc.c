@@ -1,9 +1,9 @@
 Pseudocódigo
-"Numero mas chico"
+"Número más chico"
 
 INICIO
     DVyC
-        entero n, numero, numero_mas_chico
+        entero n, i, numero, numero_mas_chico
         caracter respuesta
 
     PROCESO Y DE
@@ -21,7 +21,7 @@ INICIO
 
             imprimir "El número más chico es: ", numero_mas_chico
 
-            "Deseas repetir el proceso?"
+            imprimir "Deseas repetir el proceso?"
             leer respuesta
             respuesta = (respuesta == 's' or respuesta == 'S')
         mientras(respuesta)

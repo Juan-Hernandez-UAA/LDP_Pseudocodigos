@@ -1,9 +1,9 @@
 Pseudocódigo
-"promedio"
+"Promedio de n números"
 
 INICIO
     DVyC
-        entero n, numero, contador_positivos, contador_negativos, suma_positivos, suma_negativos
+        entero n, i, numero, contador_positivos, contador_negativos, suma_positivos, suma_negativos
         real promedio_positivos, promedio_negativos
         caracter respuesta
 
@@ -44,7 +44,7 @@ INICIO
                 imprimir "No se ingresaron números negativos."
             fin si
 
-            "Deseas repetir el proceso?"
+            imprimir "Deseas repetir el proceso?"
             leer respuesta
             respuesta = (respuesta == 's' or respuesta == 'S')
         mientras(respuesta)

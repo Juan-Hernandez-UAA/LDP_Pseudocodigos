@@ -1,16 +1,17 @@
 Pseudocódigo
-"Encontrar numeros primos"
+"Encontrar números primos"
 
 INICIO
     DVyC
         entero i, numero = 1
         booleano es_primo
         caracter respuesta
+        cadena articulo
 
     PROCESO Y DE
         repetir
             es_primo = verdadero
-            
+
             mientras(numero == 1) // uso de mientras para validar
                 imprimir "Ingrese un número entero diferente de 1: "
                 leer numero
@@ -23,12 +24,11 @@ INICIO
                 fin si
             fin repetir desde
 
-            imprimir "El número ", numero, es_primo ? " es primo." : " no es primo."
+            articulo = es_primo ? " " : " no "
+            imprimir "El número ", numero, articulo, "es primo"
 
-            "Deseas repetir el proceso?"
+            imprimir "Deseas repetir el proceso?"
             leer respuesta
             respuesta = (respuesta == 's' or respuesta == 'S')
         mientras(respuesta)
-
-
 FIN

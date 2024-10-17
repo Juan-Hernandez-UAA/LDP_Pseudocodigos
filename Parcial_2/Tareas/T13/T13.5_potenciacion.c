@@ -1,9 +1,9 @@
 Pseudocódigo
-"Potencia"
+"Potenciación con multiplicaciones"
 
 INICIO
     DVyC
-        entero base, exponente, resultado
+        entero i, base, exponente, resultado
         caracter respuesta
 
     PROCESO Y DE
@@ -28,7 +28,7 @@ INICIO
 
             imprimir base, " elevado a ", exponente, " es: ", resultado
 
-            "Deseas repetir el proceso?"
+            imprimir "Deseas repetir el proceso?"
             leer respuesta
             respuesta = (respuesta == 's' or respuesta == 'S')
         mientras(respuesta)
