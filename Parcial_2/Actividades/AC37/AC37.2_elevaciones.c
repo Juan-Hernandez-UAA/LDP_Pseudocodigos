@@ -1,9 +1,9 @@
 INICIO
-    DEF VARIABLAS
+    DVyC
         entero n, t
         caracter respuesta
 
-    HACER
+    repetir
         imprimir "Introduzca el valor de t: "
         leer t
         imprimir "Introduzca el valor de n: "
@@ -13,10 +13,10 @@ INICIO
         repetir desde(t; n)
             imprimir t * t
             t = t + 1
-        FIN REPETIR
+        fin repetir
 
         imprimir "¿Desea continuar? (s/n): "
         leer respuesta
-    MIENTRAS(respuesta == 's' or respuesta == 'S')
+    mientras(respuesta == 's' or respuesta == 'S')
 
 FIN
